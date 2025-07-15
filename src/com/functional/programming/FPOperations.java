@@ -13,6 +13,7 @@ public class FPOperations {
         List<Integer> numbers1 = List.of(3,5,3,213,45,5,7);
         numbers1.stream().distinct().sorted().forEach(e -> System.out.println(e));
         numbers1.stream().distinct().map(e -> e * e).forEach(e -> System.out.println(e));
+        System.out.println("-".repeat(30));
 
         List<Integer> integerList = List.of(4,6,8,13,3,15);
         integerList.stream().sorted().limit(4).
