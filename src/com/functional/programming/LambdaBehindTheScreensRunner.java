@@ -32,6 +32,10 @@ class CustomMapper implements Function<Integer,Integer> {
 public class LambdaBehindTheScreensRunner {
     public static void main(String[] args) {
 
+        //1.Storing functions in variables
+        //2.Passing functions to methods
+        //3.Returning functions from methods
+
         List.of(23,43,34,45,36,48).stream().filter(e -> e %2 == 0).map(e -> e*e).
                 forEach(e -> System.out.println(e));
 
