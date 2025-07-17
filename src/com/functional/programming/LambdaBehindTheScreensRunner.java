@@ -41,7 +41,8 @@ public class LambdaBehindTheScreensRunner {
 
         List.of(23,43,34,45,36,48).stream().filter(new EvenNumberPredicate()).forEach(e -> System.out.println(e));
         System.out.println("-".repeat(30));
-        List.of(23,43,34,45,36,48).stream().filter(new EvenNumberPredicate()).map(new CustomMapper()).forEach(new printAny());
+        List.of(23,43,34,45,36,48).stream().filter(new EvenNumberPredicate()).map(new CustomMapper()).
+                forEach(new printAny());
 
 
     }
